@@ -1,0 +1,94 @@
+
+
+label {
+    display: block;
+    padding: 10px 30px ;
+
+    font-size: 17px;
+}
+
+div.pass label{
+    margin-top: 15px;
+}
+
+form div input {
+    padding: 13px;
+    margin-left: 30px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+    width: 85%;
+}
+
+form > input, .entrar {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    width: 85%;
+    height: 45px;
+
+    color: white;
+    background-color: black;
+
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.418);
+
+    font-size: 18px;
+}
+
+.entrar{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form > input:hover, .entrar:hover {
+    cursor: pointer;
+    background-color: #3b3a3a;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+form > a {
+    display: block;
+    color: black;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+div.rodape p{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 7px;
+}
+
+hr{
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+div.rodape a.botao-criar-conta {
+    background-color: black;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 7px;
+
+    display: block;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+div.rodape a.botao-criar-conta:hover {
+    background-color: #3b3a3a;
+    color: #ffffff;
+    transition: 0.3s;
+}

@@ -1,0 +1,73 @@
+main > img{
+    font-size: 65px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+    border-radius: 10px;
+}
+
+main > h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 65%;
+    max-width: 300px;
+    margin: 10px auto;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+main > p {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    box-shadow:1px 1px rgba(0, 0, 0, 0.384);
+
+    width: 70%;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+main div.botoes { 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 450px;
+    margin:auto;
+}
+
+main div.botoes a {
+    width: calc(50% - 10px);
+    display: flex;
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 15px;
+    padding: 22px 0px;
+    margin-top: 10px;
+
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+main div.botoes a:hover{
+    background-color: rgba(0, 0, 0, 0.600);
+}
+
+main div.botoes a span,main div.botoes a p{
+    margin: auto 5px;
+    text-decoration: none ;
+    margin-left: 10px;
+}
+
+main div.botoes a p{
+    margin-left: 10px;
+}
